@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/18fcf135-c944-416c-b6c9-bf78a7e17de2)# Terraform-with-Jenkins
+# Terraform-with-Jenkins
 1. Jenkins installed and running. 
 https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
 Make sure to check the security group access.
