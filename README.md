@@ -1,3 +1,10 @@
+#Installing CodeSpace
+1. Type and select ">add dev container"--Modify the current configuration.
+2. type and select the terraform with tick mark in it. Click on "OK"
+3. repeat step 1 and check for aws and click on "OK"
+4. type ">rebuild the container"
+
+
 # Terraform-with-Jenkins
 1. Jenkins installed and running. 
 https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
