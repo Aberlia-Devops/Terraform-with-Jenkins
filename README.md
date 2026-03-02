@@ -4,6 +4,21 @@
 3. repeat step 1 and check for aws and click on "OK"
 4. type ">rebuild the container"
 
+5. If it does not work change the code to below and repeat step 4
+{
+ "name": "Terraform AWS Dev",
+ "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+ "features": {
+   "ghcr.io/devcontainers/features/terraform:1": {
+     "version": "latest"
+   },
+   "ghcr.io/devcontainers/features/aws-cli:1": {
+     "version": "latest"
+   }
+ },
+ "postCreateCommand": "terraform -version && aws --version"
+}
+
 
 # Terraform-with-Jenkins
 1. Jenkins installed and running. 
