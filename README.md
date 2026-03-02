@@ -5,6 +5,8 @@
 4. type ">rebuild the container"
 
 5. If it does not work change the code to below and repeat step 4
+
+   
 {
  "name": "Terraform AWS Dev",
  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
